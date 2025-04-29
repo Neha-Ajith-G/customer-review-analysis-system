@@ -5,10 +5,13 @@ This application analyzes customer reviews to determine sentiment (positive or n
 Features:
 1. Sentiment Analysis: Determines whether a review is positive or negative.
 2. Email Generation:
+
   a)It generates a thank-you email for positive reviews and recommends a new product.
+
+
   b)For negative reviews, it creates an apology email and drafts an internal email for escalation.
-3. File Upload: Accepts a reviews.json file containing customer reviews.
-4. Processed Output: Displays generated emails and saves processed reviews with sentiment analysis to reviews_with_sentiment.json.
+4. File Upload: Accepts a reviews.json file containing customer reviews.
+5. Processed Output: Displays generated emails and saves processed reviews with sentiment analysis to reviews_with_sentiment.json.
 
    
 How It Works:
